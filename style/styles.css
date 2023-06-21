@@ -1,0 +1,66 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    --primary: 150
+}
+
+body{
+    background-color: oklch(100% 0.2 var(--primary));
+    color: oklch(10% 0.25 var(--primary));
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+}
+
+section:nth-child(1){
+    text-align: center;
+}
+
+section:nth-child(2) > h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+fieldset{
+    padding: 0 1.5em 1em;
+    gap: 5px;
+    display: grid;
+    border: none;
+    border-radius: 25px;
+    background-color: oklch(80% 0.2 var(--primary));
+    box-shadow: oklch(80% 0.25 var(--primary)) 4px 6px 15px;
+}
+fieldset > div > input,select, textarea{
+    min-width: 100%;
+}
+form{
+    margin: 5px;
+    border: none;
+}
+legend{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+form div input, div select, div textarea{
+    border: none;
+    padding: 5px;
+}
+
+input, textarea, select{
+    border-radius: 5px;
+
+}
+fieldset div:last-of-type{
+    text-align: right;
+}
+fieldset div input[type="submit"]{
+    min-width: 0;
+}
