@@ -1,8 +1,8 @@
 # contact-form-css
 
-This is a simple contact application built using HTML.
+This is a simple contact application built using HTML, CSS.
 
-## HTML level
+## CSS level
 Easy
 
 ## Features
