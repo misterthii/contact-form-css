@@ -13,19 +13,14 @@
     <meta name="creator" content="JeremyHzn">
     <meta name="googlebots" content="Googlebot">
     <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/styles.css">
     <title>Formulaire de contact</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">lien de navigation</a>
-        </nav>
+        <h1>Exercice débutant en CSS</h1>
     </header>
     <main>
-        <section>
-            <h1>Exercice débutant en CSS</h1>
-        </section>
         <section>
             <h2>Formulaire</h2>
             <form action="post">
@@ -48,14 +43,15 @@
                         </select>
                     </div>
                     <div>
-                        <label for="message">Message à l'admin</label><br>
+                        <label for="message">Message à l'admin</label>
                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     </div>
                     <div>
-                        <label for="CGU">Accepter les conditions général d'utilisateur</label>
-                        <input type="checkbox" id="CGU">
+                        <label for="CGU">Accepter les conditions général d'utilisateur
+                            <input type="checkbox" id="CGU">
+                        </label>
                     </div>
-                    <div>
+                    <div id="button">
                         <input type="submit">
                     </div>
                 </fieldset>
