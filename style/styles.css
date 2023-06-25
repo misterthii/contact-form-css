@@ -4,63 +4,56 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    --primary: 150
-}
 
 body{
-    background-color: oklch(100% 0.2 var(--primary));
-    color: oklch(10% 0.25 var(--primary));
+    background-color: rgb(45.55, 153.61, 0.04);
+    color: rgb(0.41, 4.9, 0);
 }
 
-main{
-    margin: auto;
-    max-width: 800px;
-}
-
-section:nth-child(1){
+header{
+    color: #fff;
     text-align: center;
 }
 
-section:nth-child(2) > h2{
-    text-transform: capitalize;
-    text-decoration: underline;
-    font-weight: 400;
+section{
+    margin: 0 auto;
+    display: grid;
+
+}
+section h2{
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 4px 20px 36px -7px rgba(1, 66, 11, 0.75);
+
 }
 
 fieldset{
-    padding: 0 1.5em 1em;
-    gap: 5px;
-    display: grid;
-    border: none;
-    border-radius: 25px;
-    background-color: oklch(80% 0.2 var(--primary));
-    box-shadow: oklch(80% 0.25 var(--primary)) 4px 6px 15px;
-}
-fieldset > div > input,select, textarea{
-    min-width: 100%;
-}
-form{
-    margin: 5px;
     border: none;
 }
 legend{
-    font-size: 1.5em;
     text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline 2px oklch(60% 0.2 var(--primary));
 }
 
-form div input, div select, div textarea{
-    border: none;
+fieldset div{
+    margin-top: 10px;
+    display: grid;
+}
+
+input,textarea,select{
     padding: 5px;
 }
 
-input, textarea, select{
-    border-radius: 5px;
-
-}
-fieldset div:last-of-type{
-    text-align: right;
-}
-fieldset div input[type="submit"]{
-    min-width: 0;
+input[type="submit"]{
+    background-color: oklch(60% 0.2 var(--primary));
+    color:#fff;
+    text-transform: uppercase;
 }
