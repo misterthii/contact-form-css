@@ -53,7 +53,7 @@ input,textarea,select{
 }
 
 input[type="submit"]{
-    background-color: oklch(60% 0.2 var(--primary));
+    background-color: rgb(45.55, 153.61, 0.04);
     color:#fff;
     text-transform: uppercase;
 }
