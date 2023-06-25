@@ -2,6 +2,9 @@
 
 This is a simple contact application built using HTML.
 
+# HTML level
+Easy
+
 ## Features
 
 - The contact application has a contact form that captures user's information.
