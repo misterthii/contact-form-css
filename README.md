@@ -2,7 +2,7 @@
 
 This is a simple contact application built using HTML.
 
-# HTML level
+## HTML level
 Easy
 
 ## Features
